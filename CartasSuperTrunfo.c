@@ -2,7 +2,7 @@
 
 int main(){
 
-    printf("Desafio Super Trunfo - Cidades Brasileiras - Nível Novato\n");
+    printf("Desafio Super Trunfo - Nível Novato\n");
 
     char estado1[1], estado2[1], cidade1[8], cidade2[8];
     int populacao1, populacao2, pontosTuristicos1, pontosTuristicos2;
