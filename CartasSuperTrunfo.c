@@ -4,7 +4,7 @@ int main(){
 
     printf("Desafio Super Trunfo - Nível Mestre\n");
 
-    char estado1[2], estado2[2], cidade1[8], cidade2[8];
+    char estado1[2], estado2[2], cidade1[8], cidade2[8], carta1[11], carta2[11];
     int pontosTuristicos1, pontosTuristicos2;
     unsigned long int populacao1, populacao2;
     float area1, area2, pib1, pib2, densidade1, densidade2;
@@ -15,6 +15,9 @@ int main(){
 
     printf("Digite a Cidade: \n");
     scanf("%s", &cidade1);
+    carta1[11] = "%s-%s", cidade1, estado1;
+    printf("%s", carta1);
+
 
     printf("Digite a População: \n");
     scanf("%d", &populacao1);
