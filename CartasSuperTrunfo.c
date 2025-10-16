@@ -71,9 +71,9 @@ int main(){
     printf("PIB per Capita: %d\n", pibPerCapita1 > pibPerCapita2);
     printf("Super Poder: %d\n", superPoder1 > superPoder2);
 
-    printf("Comparação de cartas (Atributo: superPoder)\n");
-    printf("Carta 1 - %s: (%s) %.3f\n", cidade1, estado1, superPoder1);
-    printf("Carta 2 - %s: (%s) %.3f\n", cidade2, estado2, superPoder2);
+    printf("Comparação de cartas (Atributo: Super Poder)\n");
+    printf("Carta 1 - %s: (%s) %f\n", cidade1, estado1, superPoder1);
+    printf("Carta 2 - %s: (%s) %f\n", cidade2, estado2, superPoder2);
     if (superPoder1 > superPoder2) {
         printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
     } else {
