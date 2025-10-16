@@ -4,7 +4,7 @@ int main(){
 
     printf("Desafio Super Trunfo - Nível Mestre\n");
 
-    char estado1[2], estado2[2], cidade1[8], cidade2[8], carta1[11], carta2[11];
+    char estado1[8], estado2[8], cidade1[8], cidade2[8];
     int pontosTuristicos1, pontosTuristicos2;
     unsigned long int populacao1, populacao2;
     float area1, area2, pib1, pib2, densidade1, densidade2;
@@ -15,9 +15,6 @@ int main(){
 
     printf("Digite a Cidade: \n");
     scanf("%s", &cidade1);
-    carta1[11] = "%s-%s", cidade1, estado1;
-    printf("%s", carta1);
-
 
     printf("Digite a População: \n");
     scanf("%d", &populacao1);
@@ -75,8 +72,8 @@ int main(){
     printf("Super Poder: %d\n", superPoder1 > superPoder2);
 
     printf("Comparação de cartas (Atributo: superPoder)\n");
-    printf("Carta 1 - %s: %f\n", cidade1, superPoder1);
-    printf("Carta 2 - %s: %f\n", cidade2, superPoder2);
+    printf("Carta 1 - %s: %.2f\n", cidade1, superPoder1);
+    printf("Carta 2 - %s: %.2f\n", cidade2, superPoder2);
     if (superPoder1 > superPoder2) {
         printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
     } else {
