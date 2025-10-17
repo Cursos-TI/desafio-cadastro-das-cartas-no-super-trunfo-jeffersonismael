@@ -65,52 +65,52 @@ int main(){
     int atributoEscolhido;
     printf("Escolha o Atributo para a Batalha:\n1 - População\n2 - Área\n3 - PIB\n4 - Pontos Turísticos\n5 - Densidade Populacional\n");
     scanf("%d", &atributoEscolhido);
-    printf("*** Batalha de Cartas Super Trunfo ***\n");
+    printf("*** Batalha de Cartas Super Trunfo ***\nPaís 1: %s e País 2: %s \n",cidade1, cidade2);
     
     switch (atributoEscolhido) {
         case 1:
             if (populacao1 > populacao2) {
-                printf("País 1: %s e País 2: %s \nAtributo: População\nPopulação - Carta 1: %d\nPopulação - Carta 2: %d\nCarta 1 venceu!", cidade1, cidade2, populacao1, populacao2);
+                printf("Atributo: População\nPopulação - Carta 1: %d\nPopulação - Carta 2: %d\nCarta 1 venceu!", populacao1, populacao2);
             } else if (populacao1 < populacao2) {
-                printf("País 1: %s e País 2: %s \nAtributo: População\nPopulação - Carta 1: %d\nPopulação - Carta 2: %d\nCarta 2 venceu!", cidade1, cidade2, populacao1, populacao2);
+                printf("Atributo: População\nPopulação - Carta 1: %d\nPopulação - Carta 2: %d\nCarta 2 venceu!", populacao1, populacao2);
             } else {
-                printf("País 1: %s e País 2: %s \nAtributo: População\nPopulação - Carta 1: %d\nPopulação - Carta 2: %d\nEmpate!", cidade1, cidade2, populacao1, populacao2);
+                printf("Atributo: População\nPopulação - Carta 1: %d\nPopulação - Carta 2: %d\nEmpate!", populacao1, populacao2);
             }
             break;
         case 2:
             if (area1 > area2) {
-                printf("País 1: %s e País 2: %s \nAtributo: Área\nÁrea - Carta 1: %.2f\nÁrea - Carta 2: %.2f\nCarta 1 venceu!", cidade1, cidade2, area1, area2);
+                printf("Atributo: Área\nÁrea - Carta 1: %.2f\nÁrea - Carta 2: %.2f\nCarta 1 venceu!", area1, area2);
             } else if (area1 < area2) {
-                printf("País 1: %s e País 2: %s \nAtributo: Área\nÁrea - Carta 1: %.2f\nÁrea - Carta 2: %.2f\nCarta 2 venceu!", cidade1, cidade2, area1, area2);
+                printf("Atributo: Área\nÁrea - Carta 1: %.2f\nÁrea - Carta 2: %.2f\nCarta 2 venceu!", area1, area2);
             } else {
-                printf("País 1: %s e País 2: %s \nAtributo: Área\nÁrea - Carta 1: %.2f\nÁrea - Carta 2: %.2f\nEmpate!", cidade1, cidade2, area1, area2);
+                printf("Atributo: Área\nÁrea - Carta 1: %.2f\nÁrea - Carta 2: %.2f\nEmpate!", area1, area2);
             }
             break;
         case 3:
             if (pib1 > pib2) {
-                printf("País 1: %s e País 2: %s \nAtributo: PIB\nPIB - Carta 1: %.2f\nPIB - Carta 2: %.2f\nCarta 1 venceu!", cidade1, cidade2, pib1, pib2);
+                printf("Atributo: PIB\nPIB - Carta 1: %.2f\nPIB - Carta 2: %.2f\nCarta 1 venceu!", pib1, pib2);
             } else if (pib1 < pib2) {
-                printf("País 1: %s e País 2: %s \nAtributo: PIB\nPIB - Carta 1: %.2f\nPIB - Carta 2: %.2f\nCarta 2 venceu!", cidade1, cidade2, pib1, pib2);
+                printf("Atributo: PIB\nPIB - Carta 1: %.2f\nPIB - Carta 2: %.2f\nCarta 2 venceu!", pib1, pib2);
             } else {
-                printf("País 1: %s e País 2: %s \nAtributo: PIB\nPIB - Carta 1: %.2f\nPIB - Carta 2: %.2f\nEmpate!", cidade1, cidade2, pib1, pib2);
+                printf("Atributo: PIB\nPIB - Carta 1: %.2f\nPIB - Carta 2: %.2f\nEmpate!", pib1, pib2);
             }
             break;
         case 4:
             if (pontosTuristicos1 > pontosTuristicos2) {
-                printf("País 1: %s e País 2: %s \nAtributo: Pontos Turísticos\nPontos Turísticos - Carta 1: %d\nPontos Turísticos - Carta 2: %d\nCarta 1 venceu!", cidade1, cidade2, pontosTuristicos1, pontosTuristicos2);
+                printf("Atributo: Pontos Turísticos\nPontos Turísticos - Carta 1: %d\nPontos Turísticos - Carta 2: %d\nCarta 1 venceu!", pontosTuristicos1, pontosTuristicos2);
             } else if (pontosTuristicos1 < pontosTuristicos2) {
-                printf("País 1: %s e País 2: %s \nAtributo: Pontos Turísticos\nPontos Turísticos - Carta 1: %d\nPontos Turísticos - Carta 2: %d\nCarta 2 venceu!", cidade1, cidade2, pontosTuristicos1, pontosTuristicos2);
+                printf("Atributo: Pontos Turísticos\nPontos Turísticos - Carta 1: %d\nPontos Turísticos - Carta 2: %d\nCarta 2 venceu!", pontosTuristicos1, pontosTuristicos2);
             } else {
-                printf("País 1: %s e País 2: %s \nAtributo: Pontos Turísticos\nPontos Turísticos - Carta 1: %d\nPontos Turísticos - Carta 2: %d\nEmpate!", cidade1, cidade2, pontosTuristicos1, pontosTuristicos2);
+                printf("Atributo: Pontos Turísticos\nPontos Turísticos - Carta 1: %d\nPontos Turísticos - Carta 2: %d\nEmpate!", pontosTuristicos1, pontosTuristicos2);
             }
             break;
         case 5:
             if (densidade1 < densidade2) {
-                printf("País 1: %s e País 2: %s \nAtributo: Densidade Populacional\nDensidade Populacional - Carta 1: %.2f\nDensidade Populacional - Carta 2: %.2f\nCarta 1 venceu!", cidade1, cidade2, densidade1, densidade2);
+                printf("Atributo: Densidade Populacional\nDensidade Populacional - Carta 1: %.2f\nDensidade Populacional - Carta 2: %.2f\nCarta 1 venceu!", densidade1, densidade2);
             } else if (densidade1 > densidade2) {
-                printf("País 1: %s e País 2: %s \nAtributo: Densidade Populacional\nDensidade Populacional - Carta 1: %.2f\nDensidade Populacional - Carta 2: %.2f\nCarta 2 venceu!", cidade1, cidade2, densidade1, densidade2);
+                printf("Atributo: Densidade Populacional\nDensidade Populacional - Carta 1: %.2f\nDensidade Populacional - Carta 2: %.2f\nCarta 2 venceu!", densidade1, densidade2);
             } else {
-                printf("País 1: %s e País 2: %s \nAtributo: Densidade Populacional\nDensidade Populacional - Carta 1: %.2f\nDensidade Populacional - Carta 2: %.2f\nEmpate!", cidade1, cidade2, densidade1, densidade2);
+                printf("Atributo: Densidade Populacional\nDensidade Populacional - Carta 1: %.2f\nDensidade Populacional - Carta 2: %.2f\nEmpate!", densidade1, densidade2);
             }
             break;
         default:
